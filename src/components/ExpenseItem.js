@@ -7,6 +7,9 @@ function ExpenseItem(props) {
     console.log("Clicked!!!");
   }
 
+  // TODO 
+  // Co onzacza że w wyrażeniu onClick={clickHandler} nie zastosowano nawiazów?
+  // -- jest to wskaźnik do wywołania fukcji. Jesli były by nawiasy to funkcja ta wywołałaby się wcześniej
   return (
     <Card className='expense-item'>
       <ExpenseDate date={props.date} />
